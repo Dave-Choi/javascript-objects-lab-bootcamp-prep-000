@@ -7,8 +7,7 @@ function updateObjectWithKeyAndValue(object, key, value){
 
   // return Object.assign(newObject, newValue);
   var copy = Object.assign({}, object);
-  copy[key] = value;
-  
+ copy[key] = value;
   return copy;
 }
 
